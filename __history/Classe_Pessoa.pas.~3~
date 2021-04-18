@@ -1,0 +1,67 @@
+unit Classe_Pessoa;
+
+interface
+
+type
+    Pessoa = class
+      private
+        idade : integer;
+        sexo : string;
+        olhos : string;
+        cabelos : string;
+      public
+         procedure setIdade(idade: integer);
+         function getIdade : integer;
+         procedure setSexo(sexo: string);
+         function getSexo : string;
+         procedure setOlhos(olhos: string);
+         function getOlhos : string;
+         procedure setCabelos(cabelos: string);
+         function getCabelos : string;
+    end;
+
+implementation
+
+{ Pessoa }
+
+function Pessoa.getCabelos: string;
+begin
+     result := self.cabelos;
+end;
+
+function Pessoa.getIdade: integer;
+begin
+     result := self.idade;
+end;
+
+function Pessoa.getOlhos: string;
+begin
+     result := self.olhos;
+end;
+
+function Pessoa.getSexo: string;
+begin
+     result := self.sexo;
+end;
+
+procedure Pessoa.setCabelos(cabelos: string);
+begin
+      self.cabelos := cabelos;
+end;
+
+procedure Pessoa.setIdade(idade: integer);
+begin
+     self.idade := idade;
+end;
+
+procedure Pessoa.setOlhos(olhos: string);
+begin
+     self.olhos := olhos;
+end;
+
+procedure Pessoa.setSexo(sexo: string);
+begin
+      self.sexo := sexo;
+end;
+
+end.

@@ -1,0 +1,18 @@
+program prPesquisa;
+
+uses
+  Vcl.Forms,
+  unit_principal in 'unit_principal.pas' {Form1},
+  unit_Dados in 'unit_Dados.pas' {dm_Dados: TDataModule},
+  unit_CadPessoa in 'unit_CadPessoa.pas' {Form2};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(Tdm_Dados, dm_Dados);
+  Application.CreateForm(TForm2, Form2);
+  Application.Run;
+end.

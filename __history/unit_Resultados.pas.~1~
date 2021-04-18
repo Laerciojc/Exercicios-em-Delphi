@@ -1,0 +1,24 @@
+unit unit_Resultados;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  Tfrm_Resultados = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_Resultados: Tfrm_Resultados;
+
+implementation
+
+{$R *.dfm}
+
+end.

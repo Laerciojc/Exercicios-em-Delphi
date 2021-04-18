@@ -1,0 +1,39 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Pesquisa de Caracter'#237'sticas  F'#237'sicas da Popula'#231#227'o'
+  ClientHeight = 201
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Images = dm_Dados.Icones
+    Left = 64
+    Top = 32
+    object Cadastro1: TMenuItem
+      Caption = '&Cadastro'
+      object Pessoas1: TMenuItem
+        Caption = 'Pessoas'
+        ImageIndex = 6
+        ShortCut = 16464
+      end
+    end
+    object ConSULTAS1: TMenuItem
+      Caption = 'Con&sulta'
+      object Resultados1: TMenuItem
+        Caption = '&Resultados'
+        ImageIndex = 0
+        ShortCut = 16466
+      end
+    end
+  end
+end

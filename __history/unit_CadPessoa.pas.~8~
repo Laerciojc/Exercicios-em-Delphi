@@ -1,0 +1,104 @@
+unit unit_CadPessoa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons;
+
+type
+  Tfrm_CadPessoa = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    edIdade: TEdit;
+    cbCorOlhos: TComboBox;
+    cbCorCab: TComboBox;
+    cbSexo: TComboBox;
+    btSalvar: TBitBtn;
+    btCancelar: TBitBtn;
+    btSair: TBitBtn;
+    procedure btSairClick(Sender: TObject);
+    procedure btCancelarClick(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
+    procedure btSalvarClick(Sender: TObject);
+    procedure cbSexoChange(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_CadPessoa: Tfrm_CadPessoa;
+
+implementation
+
+{$R *.dfm}
+
+uses Classe_Pessoa, Classe_ServicoPessoa, unit_principal;
+
+procedure Tfrm_CadPessoa.btCancelarClick(Sender: TObject);
+begin
+     edIdade.Clear;
+     cbSexo.ItemIndex := 0;
+     cbCorOlhos.ItemIndex := 0;
+     cbCorCab.ItemIndex := 0;
+     edIdade.SetFocus;
+end;
+
+procedure Tfrm_CadPessoa.btSairClick(Sender: TObject);
+begin
+     close;
+end;
+
+procedure Tfrm_CadPessoa.btSalvarClick(Sender: TObject);
+var
+    pessoa : TPessoa;
+begin
+     if (edIdade.Text = '') then
+      begin
+           ShowMessage('Campo idade é obrigatótio!');
+           edIdade.SetFocus;
+           exit;
+      end;
+
+      if (cbSexo.ItemIndex = 0) then
+      begin
+           ShowMessage('Selecione o sexo!');
+           cbSexo.SetFocus;
+           exit;
+      end;
+
+      if (cbCorOlhos.ItemIndex = 0) then
+      begin
+           ShowMessage('Selecione a cor dos olhos!');
+           cbCorOlhos.SetFocus;
+           exit;
+      end;
+
+      if (cbCorCab.ItemIndex = 0) then
+      begin
+           ShowMessage('Selecione a cor dos cabelos!');
+           cbCorCab.SetFocus;
+           exit;
+      end;
+
+      pessoa := TPessoa.Create;
+      pessoa.setIdade(StrToInt(edIdade.Text));
+      pessoa.setSexo(cbSexo.ItemIndex);
+      pessoa.setOlhos(cbSexo.ItemIndex);
+      pessoa.setCabelos(cbSexo.ItemIndex);
+      frm_Principal.ServicoPessoa.setLista(pessoa);
+      self.btCancelarClick(btCancelar);
+end;
+
+procedure Tfrm_CadPessoa.FormActivate(Sender: TObject);
+begin
+     self.btCancelarClick(btCancelar);
+end;
+
+end.

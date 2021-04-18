@@ -1,0 +1,27 @@
+unit Classe_Pessoa;
+
+interface
+
+type
+    Pessoa = class
+      private
+        idade : integer;
+        sexo : integer;
+        olhos : integer;
+        cabelo : integer;
+      public
+         procedure setIdade(idade: integer);
+
+
+    end;
+
+implementation
+
+{ Pessoa }
+
+procedure Pessoa.setIdade(idade: integer);
+begin
+     self.idade := idade;
+end;
+
+end.

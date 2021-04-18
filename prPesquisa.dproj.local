@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/03/15 19:31:26.000.196,=C:\Users\automacao.INCOTEXTIL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 08:33:25.000.980,=C:\Users\automacao.INCOTEXTIL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 08:38:33.000.133,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\unit_principal.pas=C:\Users\automacao.INCOTEXTIL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 08:38:33.000.133,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\unit_principal.dfm=C:\Users\automacao.INCOTEXTIL\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/03/16 08:38:50.000.922,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\prPesquisa.dproj=C:\Users\automacao.INCOTEXTIL\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/03/16 09:24:41.000.381,=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 09:25:48.000.998,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\unit_Dados.dfm=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.dfm</Transaction>
+    <Transaction>2021/03/16 09:25:48.000.998,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\unit_Dados.pas=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 09:42:22.000.503,=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit2.pas</Transaction>
+    <Transaction>2021/03/16 09:42:49.000.697,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\unit_CadPessoa.pas=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit2.pas</Transaction>
+    <Transaction>2021/03/16 09:42:49.000.697,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\unit_CadPessoa.dfm=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit2.dfm</Transaction>
+    <Transaction>2021/03/16 11:07:21.000.752,=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 11:08:13.000.868,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Classe_Pessoa.pas=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 11:31:26.000.506,=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 11:32:00.000.772,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Classe_ServicoPessoa.pas=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 14:36:57.000.419,=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 14:46:19.000.955,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\unit_Resultados.dfm=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.dfm</Transaction>
+    <Transaction>2021/03/16 14:46:19.000.955,C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\unit_Resultados.pas=C:\Users\automacao.INCOTEXTIL\Desktop\meus arquivos\ads\pedro\exercicios\prPesquisa\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

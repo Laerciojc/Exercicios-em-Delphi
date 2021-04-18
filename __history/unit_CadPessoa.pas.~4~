@@ -1,0 +1,53 @@
+unit unit_CadPessoa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons;
+
+type
+  Tfrm_CadPessoa = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    edIdade: TEdit;
+    cbCorOlhos: TComboBox;
+    cbCorCab: TComboBox;
+    cbSexo: TComboBox;
+    btSalvar: TBitBtn;
+    btCancelar: TBitBtn;
+    btSair: TBitBtn;
+    procedure btSairClick(Sender: TObject);
+    procedure btCancelarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_CadPessoa: Tfrm_CadPessoa;
+
+implementation
+
+{$R *.dfm}
+
+procedure Tfrm_CadPessoa.btCancelarClick(Sender: TObject);
+begin
+     edIdade.Clear;
+     cbSexo.ItemIndex := 0;
+     cbCorOlhos.ItemIndex := 0;
+     cbCorCab.ItemIndex := 0;
+     edIdade.SetFocus;
+end;
+
+procedure Tfrm_CadPessoa.btSairClick(Sender: TObject);
+begin
+     close;
+end;
+
+end.
